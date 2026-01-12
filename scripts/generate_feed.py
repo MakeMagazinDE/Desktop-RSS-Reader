@@ -37,7 +37,6 @@ def rfc822(dt: datetime) -> str:
 def stable_guid(link: str) -> str:
     return hashlib.sha256(link.encode("utf-8")).hexdigest()
 
-# Entfernt Meta am Ende wie "... 29.12.2025 10:00 Uhr 12 Make Magazin" oder "... 2 Make Magazin"
 META_TAIL_RE = re.compile(
     r"""
     \s+\d{2}\.\d{2}\.\d{4}\s+\d{2}:\d{2}\s+Uhr(?:\s+\d+)?\s*Make\s+Magazin\s*$ |
@@ -51,27 +50,18 @@ def clean_meta_tail(text: str) -> str:
     return META_TAIL_RE.sub("", text).strip()
 
 def split_title_teaser(text: str) -> tuple[str, str]:
-    """
-    heise liefert häufig: "<Titel> <Anrisstext> <Meta>"
-    Nach Meta-Removal bleibt "<Titel> <Anrisstext>"
-    Trennung ist nicht perfekt maschinenlesbar -> Heuristik:
-      - Wenn 'Titel:' vorhanden, Titel = bis ':' (inkl. falls das ein echtes Titelmuster ist)
-      - Sonst: Titel = bis ~80 Zeichen (an Wortgrenze), Rest = Anriss
-    """
+
     t = clean_meta_tail(re.sub(r"\s+", " ", text).strip())
     if not t:
         return "", ""
 
-    # 1) Gute Trennstelle: "Titel: Anrisstext"
     if ":" in t:
         left, right = t.split(":", 1)
-        # nur nutzen, wenn links nicht zu kurz/lang
         if 10 <= len(left.strip()) <= 120 and len(right.strip()) >= 20:
             title = left.strip()
             teaser = right.strip()
             return title, teaser
 
-    # 2) Wenn es einen klaren Satzbeginn im Rest gibt (Punkt)
     if "." in t:
         first_sentence, rest = t.split(".", 1)
         first_sentence = first_sentence.strip()
@@ -80,7 +70,6 @@ def split_title_teaser(text: str) -> tuple[str, str]:
         if 10 <= len(first_sentence) <= 110 and len(rest) >= 20:
             return first_sentence, rest
 
-    # 3) Fallback: hart schneiden
     if len(t) > 90:
         title = t[:80].rsplit(" ", 1)[0].strip()
         teaser = t[len(title):].strip()
@@ -89,7 +78,6 @@ def split_title_teaser(text: str) -> tuple[str, str]:
     return t, t
 
 def fetch_html(url: str) -> str:
-    # Realistischer Browser-User-Agent + Accept-Language hilft gegen Bot/Minimal-Versionen
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -111,16 +99,12 @@ def fetch_items() -> list[dict]:
     items = []
     seen = set()
 
-    # Heise-Seite zeigt Artikel-Links klar als <a> mit /ratgeber/… oder ähnlichem Pfad (und .html)
-    # Wir filtern robust:
     candidates = soup.select('a[href]')
     for a in candidates:
         href = (a.get("href") or "").strip()
         if not href:
             continue
 
-        # nur "Artikelartige" Links
-        # (die Plus-Seite enthält sehr viele Navigation/Shop/Archiv-Links)
         if "/ratgeber/" not in href and "/news/" not in href and "/meldung/" not in href:
             continue
         if ".html" not in href:
