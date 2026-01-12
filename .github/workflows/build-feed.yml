@@ -1,0 +1,46 @@
+name: Build RSS Feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate feed
+        env:
+          SITE_URL: "https://www.heise.de/make/plus"
+          FEED_SELF_URL: "https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml"
+          OUTPUT_PATH: "feed.xml"
+          CHANNEL_TITLE: "Make Magazin: heise+ Artikel | heise online"
+          CHANNEL_DESC: "Aktuelle heise+ Artikel vom Make Magazin"
+          CHANNEL_LINK: "https://www.heise.de/make/plus/"
+          CHANNEL_IMAGE_URL: "https://www.heise.de/make/icons/favicon.svg"
+          CHANNEL_LANGUAGE: "de"
+          GENERATOR: "https://github.com/MakeMagazinDE/Desktop-RSS-Reader"
+        run: |
+          python scripts/generate_feed.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git diff --cached --quiet || git commit -m "Update feed"
+          git push
