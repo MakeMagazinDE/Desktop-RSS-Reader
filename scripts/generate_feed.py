@@ -1,6 +1,5 @@
 import hashlib
 import os
-import re
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from urllib.parse import urljoin
@@ -9,10 +8,6 @@ import requests
 from bs4 import BeautifulSoup
 from xml.dom import minidom
 
-
-# ======================
-# Config (ENV)
-# ======================
 SITE_URL = os.environ.get("SITE_URL", "https://www.heise.de/make/plus")
 FEED_SELF_URL = os.environ.get("FEED_SELF_URL", "")
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "feed.xml")
@@ -26,56 +21,16 @@ GENERATOR = os.environ.get("GENERATOR", "https://github.com/MakeMagazinDE/Deskto
 
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "30"))
 
-# ======================
-# Helpers
-# ======================
+
 def rfc822(dt: datetime) -> str:
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return format_datetime(dt)
 
+
 def stable_guid(link: str) -> str:
     return hashlib.sha256(link.encode("utf-8")).hexdigest()
 
-META_TAIL_RE = re.compile(
-    r"""
-    \s+\d{2}\.\d{2}\.\d{4}\s+\d{2}:\d{2}\s+Uhr(?:\s+\d+)?\s*Make\s+Magazin\s*$ |
-    \s+\d+\s+Make\s+Magazin\s*$ |
-    \s+Make\s+Magazin\s*$
-    """,
-    re.VERBOSE,
-)
-
-def clean_meta_tail(text: str) -> str:
-    return META_TAIL_RE.sub("", text).strip()
-
-def split_title_teaser(text: str) -> tuple[str, str]:
-
-    t = clean_meta_tail(re.sub(r"\s+", " ", text).strip())
-    if not t:
-        return "", ""
-
-    if ":" in t:
-        left, right = t.split(":", 1)
-        if 10 <= len(left.strip()) <= 120 and len(right.strip()) >= 20:
-            title = left.strip()
-            teaser = right.strip()
-            return title, teaser
-
-    if "." in t:
-        first_sentence, rest = t.split(".", 1)
-        first_sentence = first_sentence.strip()
-        rest = rest.strip()
-        # Wenn der erste Satz relativ kurz ist, ist er oft der Titel
-        if 10 <= len(first_sentence) <= 110 and len(rest) >= 20:
-            return first_sentence, rest
-
-    if len(t) > 90:
-        title = t[:80].rsplit(" ", 1)[0].strip()
-        teaser = t[len(title):].strip()
-        return title, teaser or t
-
-    return t, t
 
 def fetch_html(url: str) -> str:
     headers = {
@@ -92,6 +47,26 @@ def fetch_html(url: str) -> str:
     r.raise_for_status()
     return r.text
 
+
+def extract_title_teaser_from_anchor(a) -> tuple[str, str]:
+
+    title_el = a.select_one('span[data-upscore-title="true"]')
+    title = title_el.get_text(" ", strip=True) if title_el else ""
+
+    teaser_el = a.select_one('[data-component="TeaserSynopsis"]')
+    teaser = teaser_el.get_text(" ", strip=True) if teaser_el else ""
+
+    # Fallbacks (nur falls Struktur mal fehlt)
+    if not title or not teaser:
+        full_text = a.get_text(" ", strip=True)
+        if not title:
+            title = (full_text[:80].rsplit(" ", 1)[0].strip() if len(full_text) > 80 else full_text)
+        if not teaser:
+            teaser = full_text[len(title):].strip() or title
+
+    return title, teaser
+
+
 def fetch_items() -> list[dict]:
     html = fetch_html(SITE_URL)
     soup = BeautifulSoup(html, "html.parser")
@@ -99,37 +74,36 @@ def fetch_items() -> list[dict]:
     items = []
     seen = set()
 
-    candidates = soup.select('a[href]')
-    for a in candidates:
+    for a in soup.select("a[href]"):
         href = (a.get("href") or "").strip()
         if not href:
             continue
 
-        if "/ratgeber/" not in href and "/news/" not in href and "/meldung/" not in href:
-            continue
         if ".html" not in href:
+            continue
+        if "/ratgeber/" not in href and "/news/" not in href and "/meldung/" not in href:
             continue
 
         link = urljoin(SITE_URL, href)
         if link in seen:
             continue
 
-        text = a.get_text(" ", strip=True)
-        if not text or len(text) < 30:
+        title, teaser = extract_title_teaser_from_anchor(a)
+        if not title or len(title) < 5:
             continue
-
-        title, desc = split_title_teaser(text)
-        if not title or len(title) < 10:
-            continue
+        if not teaser:
+            teaser = title
 
         seen.add(link)
-        items.append({
-            "title": title,
-            "description": desc or title,
-            "link": link,
-            "guid": stable_guid(link),
-            "pubdate": datetime.now(timezone.utc),
-        })
+        items.append(
+            {
+                "title": title,
+                "description": teaser,
+                "link": link,
+                "guid": stable_guid(link),
+                "pubdate": datetime.now(timezone.utc),
+            }
+        )
 
         if len(items) >= MAX_ITEMS:
             break
@@ -147,6 +121,7 @@ def add_text(doc, parent, tag, text, attrs=None, ns=None):
         el.appendChild(doc.createTextNode(text))
     parent.appendChild(el)
     return el
+
 
 def add_cdata(doc, parent, tag, cdata_text, attrs=None, ns=None):
     el = doc.createElementNS(ns, tag) if ns else doc.createElement(tag)
@@ -211,6 +186,7 @@ def main():
         add_text(doc, item, "guid", it["guid"], attrs={"isPermaLink": "false"})
         add_text(doc, item, "pubDate", rfc822(it["pubdate"]))
 
+        # Optional: leer lassen (kannst du später befüllen)
         dc_creator = doc.createElementNS(DC_NS, "dc:creator")
         dc_creator.appendChild(doc.createTextNode(""))
         item.appendChild(dc_creator)
