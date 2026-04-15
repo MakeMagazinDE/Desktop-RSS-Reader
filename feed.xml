@@ -10,7 +10,7 @@
       <link>https://www.heise.de/make/plus/</link>
     </image>
     <generator>https://github.com/MakeMagazinDE/Desktop-RSS-Reader</generator>
-    <lastBuildDate>Wed, 15 Apr 2026 09:56:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 11:05:31 +0000</lastBuildDate>
     <atom:link href="https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml" rel="self" type="application/rss+xml"/>
     <language>de</language>
     <item>
@@ -18,7 +18,7 @@
       <description><![CDATA[Ein offizieller Prommer von Padauk lohnt sich nur, wenn Sie viele der Mikrocontroller programmieren wollen oder die volle Hardwarekompatibilität brauchen.]]></description>
       <link>https://www.heise.de/ratgeber/Make-Projekt-3-Cent-Mikrocontroller-programmieren-Teil-2-11207149.html</link>
       <guid isPermaLink="false">7c1acb3f3dcbc718d438b1939d797e6d717908fb01ed57ceda7a1111da78ddd5</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -26,7 +26,7 @@
       <description><![CDATA[Ein seltsam aussehender Kellerfund entpuppte sich im Verlauf als Geigerzähler. Diese Ausführung habe ich zuvor jedoch noch nie gesehen.]]></description>
       <link>https://www.heise.de/ratgeber/Geigerzaehler-von-1977-aufgeschraubt-und-analysiert-11213876.html</link>
       <guid isPermaLink="false">862df5bddef4e4abc096ed377bd419875bcab4f10394a3599509f42d673e9db7</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <description><![CDATA[Dieses Projekt zeigt, wie sich mit ESP8266, ePaper-Display und einem Temperatursensor ein smarter Fußbodenheizungsthermostat realisieren lässt.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Smarter-Fussbodenheizungsthermostat-im-Eigenbau-11204575.html</link>
       <guid isPermaLink="false">52297cdfcd0a376739005d98dcfd36769ca355f65defe4987b1a4d8da63dd975</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <description><![CDATA[Mit einem Raspi und der Raspi-Kamera wird aus einem alten Monitor eine smarte Lesehilfe. Die kann als Lupe fungieren, Texte visuell aufbereiten und vorlesen.]]></description>
       <link>https://www.heise.de/ratgeber/Smarte-Lesehilfe-mit-einem-Raspberry-Pi-selber-bauen-11209098.html</link>
       <guid isPermaLink="false">41dae84866081a2344837a57f687abf675eaee095d09c20e75ae986856a8d1ec</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <description><![CDATA[Hacking und Pentesting: Wir basteln kleine, niedliche Geräte, mit denen man viel über Sicherheit und Lücken in Netzwerken lernen kann.]]></description>
       <link>https://www.heise.de/ratgeber/Netzwerksicherheit-Raspi-als-mobiler-Schwachstellen-Scanner-im-Eigenbau-11216654.html</link>
       <guid isPermaLink="false">6570f6a6b503c8aacc52c836261c4ae22b5598d445a284a466d7996a0e85db5a</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -58,7 +58,7 @@
       <description><![CDATA[LED-Wasserwaage korrigiert: Herausgekommen sind eine zuverlässigere, leichtere Wasserwaage und einige Einsichten über die Eigenheiten des MPU-6050-Sensors.]]></description>
       <link>https://www.heise.de/ratgeber/LED-Wasserwaage-2-0-im-Selbstbau-Bug-behoben-11214168.html</link>
       <guid isPermaLink="false">6a6f2b8a9a3f83a7d0b1e05b273abaf2cb27bd6da2d9c1002f60d155779497ab</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -66,7 +66,7 @@
       <description><![CDATA[Mit einem RasPi und der RasPi-HQ-Kamera lassen sich Fotonegative in digitale Fotos umwandeln. Meine Spezialsoftware sorgt für die richtige Qualität.]]></description>
       <link>https://www.heise.de/ratgeber/Fotonegative-digitalisieren-Scanner-Software-fuer-hochaufloesende-Bilder-11207409.html</link>
       <guid isPermaLink="false">65f701de645a4145b94d68df1e25d306573c4efad0958ea152471b7cebf6d1da</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -74,7 +74,7 @@
       <description><![CDATA[Eine große Menge an Negativen von Hand zu digitalisieren, kann ganz schön ermüdend sein. Einfacher geht das mit dem hier gezeigten Scanner.]]></description>
       <link>https://www.heise.de/ratgeber/Fotonegative-mit-einem-3D-gedruckten-Scanner-digitalisieren-11207113.html</link>
       <guid isPermaLink="false">e96d2e5b06202cfc342cf70cd895fe2e06e6f5e03445e8243f3a07577afb497f</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -82,7 +82,7 @@
       <description><![CDATA[Mit einer eigenen Mini-Biogasanlage lassen sich organische Abfälle in wertvolles Methan und hochwertigen Flüssigdünger verwandeln. So geht's!]]></description>
       <link>https://www.heise.de/ratgeber/Die-eigene-Mini-Biogasanlage-im-Selbstbau-11182137.html</link>
       <guid isPermaLink="false">3a80c76d0c48e7ac615d2c0c4315e067af1e6f4f1f9f136087d47388a5b18be7</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -90,7 +90,7 @@
       <description><![CDATA[Messungen mit der Ionenkammer oder das Ballonexperiment haben Radon nachgewiesen? Wir erklären, wie Sie die Menge quantifizieren und aus dem Keller entfernen.]]></description>
       <link>https://www.heise.de/ratgeber/Radonbelastung-senken-DIY-Luefter-fuer-den-Keller-im-Eigenbau-11205480.html</link>
       <guid isPermaLink="false">23c3f11bb37d0f1c777d6e204446d3afb68bf71e90359585f5d6914cd50cf04f</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -98,7 +98,7 @@
       <description><![CDATA[Ein Heimspeicher brennt nicht häufiger als ein Trockner. Doch der Aufstellort entscheidet mit über Lebensdauer, Sicherheit und Leistung.]]></description>
       <link>https://www.heise.de/ratgeber/Aufstellort-Solar-Batteriespeicher-Was-bei-Lebensdauer-und-Sicherheitheit-zaehlt-11149787.html</link>
       <guid isPermaLink="false">e21b37cc251b0ba6707ac8ee852f7b08573859eaeac105c644a8c5941e112ea3</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -106,7 +106,7 @@
       <description><![CDATA[Lockere Schrauben, Unwucht oder verschlissene Lager kündigen sich lange an. Mit wenig Hardware und etwas Mathematik können Sie Maschinenzustände überwachen.]]></description>
       <link>https://www.heise.de/ratgeber/Verschleissmelder-fuer-Maschinen-mit-ESP32-selber-bauen-11145535.html</link>
       <guid isPermaLink="false">71aab2e31950778b171cab5c41a453f55dfe107f92c1a08dacae6e201423461f</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -114,7 +114,7 @@
       <description><![CDATA[Um den Strom des Balkonkraftwerks möglichst gut zu nutzen, sollten Verbräuche und Lasten überwacht werden. Die Daten dazu liefert unser Energiemonitor.]]></description>
       <link>https://www.heise.de/ratgeber/Energiemonitor-fuer-Balkonkraftwerk-bauen-und-auswerten-11140405.html</link>
       <guid isPermaLink="false">2c1c68f21919af80aff5bde555b55d31867e77f48f0868038b088d216ac4d19e</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -122,7 +122,7 @@
       <description><![CDATA[Eine KI kann schon sehr hilfreich sein. Der Umweg über den Browser schreckt aber viele Einsteiger ab. AI.duino soll hier Abhilfe schaffen.]]></description>
       <link>https://www.heise.de/ratgeber/AI-duino-Wie-die-integrierte-KI-fuer-Arduino-funktioniert-11149113.html</link>
       <guid isPermaLink="false">9c79cda6c49d94ba1b7d07d1ff542de5c6e4dd959498ff8de2cc78275d6f440b</guid>
-      <pubDate>Wed, 15 Apr 2026 09:56:17 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 11:05:31 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
   </channel>
