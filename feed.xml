@@ -10,7 +10,7 @@
       <link>https://www.heise.de/make/plus/</link>
     </image>
     <generator>https://github.com/MakeMagazinDE/Desktop-RSS-Reader</generator>
-    <lastBuildDate>Fri, 19 Jun 2026 23:36:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 03:54:39 +0000</lastBuildDate>
     <atom:link href="https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml" rel="self" type="application/rss+xml"/>
     <language>de</language>
     <item>
@@ -18,7 +18,7 @@
       <description><![CDATA[Mit Raspberry Pi, HQ-Kamera, Powerbank und Open-Source-Software entsteht mit wenig Aufwand ein erstaunlich leistungsfähiger Himmelswächter. Ein Einstieg.]]></description>
       <link>https://www.heise.de/ratgeber/Himmelswaechter-mit-PiCam-und-Raspi4-zur-Astrobeobachtung-bauen-11306515.html</link>
       <guid isPermaLink="false">f006f224ced325532197913043871e9d9763f51d5b61501031571dce477e001f</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -26,7 +26,7 @@
       <description><![CDATA[Wir zeigen, wie man Logos, Grafiken und Fotos mit GIMP in ihre Farbkanalkomponenten zerlegt und in EasyEDA als Layer ins PCB-Design bringt.]]></description>
       <link>https://www.heise.de/ratgeber/Maker-Projekt-Bilder-auf-Platinen-platzieren-11306356.html</link>
       <guid isPermaLink="false">2e5b307f315ec8a670d2400477f3d05204e4c115f87d6b96b520e073c4ad0ed5</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <description><![CDATA[Mit dieser selbst gebauten Teams-Ampel wird dein Status schon vor der Tür im Büro sichtbar. Und das nur mit einem ESP32 und einem LED-Streifen.]]></description>
       <link>https://www.heise.de/ratgeber/So-bauen-Sie-eine-Teams-Ampel-zur-Aktivitaetsanzeige-11292919.html</link>
       <guid isPermaLink="false">bb009b62c19e99e394b04ba1cd359667f9684447a7d5f1d728d0ba9b74387263</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <description><![CDATA[Wir zeigen Ihnen, wie man Geocaches so baut, dass sie ohne Batteriewechsel eine gefühlte kleine Ewigkeit in der Wildnis überleben.]]></description>
       <link>https://www.heise.de/ratgeber/Elektronische-Geocaches-mit-ausdauernder-Batterie-im-Eigenbau-11306068.html</link>
       <guid isPermaLink="false">515c3dcad723e094b2d262bc09780d800409e007f46b71feea0ae06743092e23</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <description><![CDATA[Zwei Shelly-Sensoren und ein smarter Schalter rüsten einen simplen Badezimmerlüfter in wenigen Schritten zur intelligenten Taupunktsteuerung auf.]]></description>
       <link>https://www.heise.de/ratgeber/Badezimmerluefter-zu-Taupunktluefter-mit-Shelly-Produkten-umruesten-11304149.html</link>
       <guid isPermaLink="false">bb112df8aba0f0f432a69f2716aeb9ee663e5c4f68e448cfcc08eba8b46f8200</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -58,7 +58,7 @@
       <description><![CDATA[Ein ESP32-Board überwacht die Haustürklingel und verbindet sich serverlos über LoRa mit einer mobilen Klingelstation. So verpasst man keinen Besuch mehr.]]></description>
       <link>https://www.heise.de/ratgeber/Der-DIY-Klingel-Repeater-im-Eigenbau-11302495.html</link>
       <guid isPermaLink="false">788f19db3fd073b69da07e8ec7791448f549322179bbb25763fd64d4e08b4f1d</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -66,7 +66,7 @@
       <description><![CDATA[Mit leuchtenden Symbolen sorgt "hOma" dafür, dass man keine wichtigen Ereignisse im Smart Home verpasst. Besonders ältere Menschen behalten so den Überblick.]]></description>
       <link>https://www.heise.de/ratgeber/Projekt-hOma-Schaltzentrale-fuer-Senioren-selbst-bauen-11298674.html</link>
       <guid isPermaLink="false">b144c218de72f9a9df0ba9375df0b6dbccbf150bce254110f45f1aa218d87ace</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -74,7 +74,7 @@
       <description><![CDATA[Diese DIY-Konsole erfüllt dem Autor den Traum eines kleinen Spieleautomaten auf Raspi-Basis mit Display, Lautsprechern, Arcade-Buttons und tausenden Spielen.]]></description>
       <link>https://www.heise.de/ratgeber/Anleitung-zum-Bau-einer-leichten-ArcadeBox-mit-zahlreichen-Spielen-11286843.html</link>
       <guid isPermaLink="false">8320d594ae7375604c2d8ec83e68f27d00e53ff867a8cbbe157d1dd304549f87</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -82,7 +82,7 @@
       <description><![CDATA[Ein altes Telekom-Telefon, neu gedacht: Abheben, wählen, sprechen – wie früher, nur antwortet am anderen Ende eine KI. Raspberry Pi und OpenAI machen’s möglich.]]></description>
       <link>https://www.heise.de/ratgeber/Raspi-Projekt-Mit-ChatGPT-an-einem-umgebauten-Tischtelefon-Ideen-austauschen-11202033.html</link>
       <guid isPermaLink="false">a5cf02fdbe88bd8a37fadfe75cf5a89fa55f8b55ce394aa17487f01a83c62aeb</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -90,7 +90,7 @@
       <description><![CDATA[Aus einem LED-Streifen, etwas Physik und einem ESP32 entsteht eine LED-Achterbahn, bei der das Licht wie ein echter Wagen durch Loopings und Kurven rauscht.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Wie-man-eine-LED-Achterbahn-baut-11215935.html</link>
       <guid isPermaLink="false">a6e1e1a301876470ca06d148a8b97942b991c707108e28e88dc768707a9661bc</guid>
-      <pubDate>Fri, 19 Jun 2026 23:36:24 +0000</pubDate>
+      <pubDate>Sat, 20 Jun 2026 03:54:39 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
   </channel>
