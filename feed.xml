@@ -10,7 +10,7 @@
       <link>https://www.heise.de/make/plus/</link>
     </image>
     <generator>https://github.com/MakeMagazinDE/Desktop-RSS-Reader</generator>
-    <lastBuildDate>Wed, 05 Aug 2026 15:38:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 17:39:36 +0000</lastBuildDate>
     <atom:link href="https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml" rel="self" type="application/rss+xml"/>
     <language>de</language>
     <item>
@@ -18,7 +18,7 @@
       <description><![CDATA[Wer beim Würfeln vom Pech verfolgt wird, kann schnell die Lust am Spiel verlieren. Dieser DIY-Würfel mit LED-Anzeige sorgt für ausgleichende Gerechtigkeit.]]></description>
       <link>https://www.heise.de/ratgeber/Gerechten-Wuerfel-mit-LED-Anzeige-selber-bauen-11367025.html</link>
       <guid isPermaLink="false">8e55cd1f79bf22ccf9ced3d23e380e86c23ff997914606a182b7a7f66fbf56a1</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -26,7 +26,7 @@
       <description><![CDATA[Bis zum heutigen Tage entstehen Programme und Hardware für den C64. Die Software Meatloaf nutzt einen ESP32, um den Kult-Oldie sogar ins Internet zu bringen.]]></description>
       <link>https://www.heise.de/ratgeber/ESP32-Projekt-Wie-man-mit-Meatloaf-den-C64-ins-Internet-bringt-11370778.html</link>
       <guid isPermaLink="false">2211938034cba9224fccdfbd8dbc8dab203cdd50d0d7aaae2ffc2ce167a82783</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <description><![CDATA[Wir bauen einen energieeffizienten Sensor auf Basis des nRF52840-Mikrocontrollers.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Stromsparende-Sensoren-mit-BTHome-selbst-bauen-11363875.html</link>
       <guid isPermaLink="false">249c071bed6a6a166f78cc6a31868b3f07f4e0807590451e5381a4161ae3196f</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <description><![CDATA[Soll ein elektronischer Geocache oder Umweltsensor 10 Jahre batteriebetrieben in der Wildnis überleben, muss man tief in die Low-Power-Trickkiste greifen.]]></description>
       <link>https://www.heise.de/ratgeber/Stromspartipps-der-AVR-Chips-Arduino-im-Batteriebetrieb-11334381.html</link>
       <guid isPermaLink="false">a423d74fda2e66fa964adfd4280e9b5c833b1eb636e7c2d9a2d2aacf756858c1</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <description><![CDATA[Spulen von Hand zu wickeln kostet Zeit und Nerven. Diese Arduino-gesteuerte Wickelmaschine übernimmt die Arbeit automatisch, präzise und für unter 100 Euro.]]></description>
       <link>https://www.heise.de/ratgeber/Spulenwickelmaschine-mit-Arduino-bauen-11364091.html</link>
       <guid isPermaLink="false">15cec37eb4cc27ace0366cf180f44786c853d7e48c67f045f2896c4fdcbac886</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -58,7 +58,7 @@
       <description><![CDATA[Mit DesignSpark Mechanical baut man modulare Gehäuse, die sich mit minimalem Aufwand an verschiedene Elektronikprojekte anpassen lassen.]]></description>
       <link>https://www.heise.de/ratgeber/Radio-Netzteil-oder-Messgeraet-Ein-modulares-Gehaeuse-im-Selbstbau-11332936.html</link>
       <guid isPermaLink="false">d838b4020441434b05ae4817c0fc4a794b784d21663f9c744926be679dc8751f</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -66,7 +66,7 @@
       <description><![CDATA[Die Software Weeb Labs DSPi macht aus einem Mikrocontroller vom Typ Raspberry Pi Pico oder Pico 2 eine Soundkarte mit DSP und überraschender Funktionsfülle.]]></description>
       <link>https://www.heise.de/ratgeber/Billiger-als-ein-Doener-Raspi-Pico-2-als-USB-Soundkarte-mit-DSP-11274679.html</link>
       <guid isPermaLink="false">444c8c067ed672c16ba321fbb209944625425120265ecf97ed300b9492478654</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -74,7 +74,7 @@
       <description><![CDATA[GitHub Actions automatisiert Aufgaben im Repository. Am Beispiel eines RSS-Feed-Projekts zeigt der Artikel, wie man Workflows anlegt.]]></description>
       <link>https://www.heise.de/ratgeber/Git-fuer-Maker-erklaert-Teil-4-Wie-man-in-Github-Actions-Workflows-anlegt-11342212.html</link>
       <guid isPermaLink="false">f782f874c49b74e9debfa2cc01af4c461fd0f8cc5a0f5b2ba97fb0888f9e6220</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -82,7 +82,7 @@
       <description><![CDATA[Ein Magnetventil und ein ESP8266 reichen als Basis, um einen Wasserhahn smart zu steuern. Mit ioBroker und Tasmota läuft die Steuerung sogar im Heimnetz.]]></description>
       <link>https://www.heise.de/ratgeber/Smarter-Wasserhahn-im-Eigenbau-11317182.html</link>
       <guid isPermaLink="false">40564f7768a580b8240f85735d1f78b74743e97a3df473aefe7c5fd6cfc5daa7</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -90,7 +90,7 @@
       <description><![CDATA[Viele Slim- und Super-Slim-Modelle lassen sich modifizieren, um Sicherheitskopien direkt von der Festplatte abzuspielen oder sogar Systemeingriffe vorzunehmen.]]></description>
       <link>https://www.heise.de/ratgeber/So-kann-man-eine-PS3-mit-dem-Raspberry-Pi-Pico-hacken-11306022.html</link>
       <guid isPermaLink="false">a0661e66bf075be6eaf80060338ab3a012dffaf15499356be749e5a1bea89e21</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -98,7 +98,7 @@
       <description><![CDATA[Wir beschreiben die musPICbox, die moderne Inkarnation der Spieldose für Maker. Mit 3D-Druck, Laser, Mikrocontroller und ganz ohne Batterie oder Akku.]]></description>
       <link>https://www.heise.de/ratgeber/Moderner-Leierkasten-DIY-Spieldose-im-Eigenbau-11308412.html</link>
       <guid isPermaLink="false">12d9f75b8cf78e4f5499143fdef37ffb8e5354a56b998e2326ef63af7fd59511</guid>
-      <pubDate>Wed, 05 Aug 2026 15:38:12 +0000</pubDate>
+      <pubDate>Wed, 05 Aug 2026 17:39:36 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
   </channel>
