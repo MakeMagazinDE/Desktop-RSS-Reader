@@ -10,7 +10,7 @@
       <link>https://www.heise.de/make/plus/</link>
     </image>
     <generator>https://github.com/MakeMagazinDE/Desktop-RSS-Reader</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 21:29:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 21:55:08 +0000</lastBuildDate>
     <atom:link href="https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml" rel="self" type="application/rss+xml"/>
     <language>de</language>
     <item>
@@ -18,7 +18,7 @@
       <description><![CDATA[In mehreren deutschen Städten bauen Exil-Ukrainer mit einfachen Maker-Mitteln Drohnen, die zur Verteidigung an die Front in der Ukraine geliefert werden.]]></description>
       <link>https://www.heise.de/ratgeber/Maker-Drohnen-fuer-die-Front-Kriegsgeraet-aus-dem-Hobbykeller-11374336.html</link>
       <guid isPermaLink="false">e11db07b54e242e5d0ccb082714eada702f90caf2d7688a12d72ce15df4e78ac</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -26,7 +26,7 @@
       <description><![CDATA[Nachdem die Allsky-Software auf dem Raspberry Pi läuft, starten wir den 3D-Drucker und bauen ein Gehäuse, damit die Kamera für nächtliche Einsätze bereit ist.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Wetterfestes-Gehaeuse-aus-dem-3D-Drucker-fuer-die-Allsky-Kamera-11372107.html</link>
       <guid isPermaLink="false">c559f40aeceac4dd7aa8e710dd1f54d2e9f880559eae85a1bb63ba51836b486b</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -34,7 +34,7 @@
       <description><![CDATA[Böden von Glasflaschen sauber und kontrolliert abtrennen? Mit einem selbstgebauten Flaschenschneider gelingt der Anriss als Grundlage für einen präzisen Bruch.]]></description>
       <link>https://www.heise.de/ratgeber/Upcycling-Wie-man-einen-DIY-Flaschenschneider-selbst-baut-11369005.html</link>
       <guid isPermaLink="false">a9ffe509e015889c5bc76b096ebd1a96cb7ce73dff599c0687a6417ea6b99020</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -42,7 +42,7 @@
       <description><![CDATA[Spannungen messen, Signale generieren oder Prototypen testen. Mit dem TestLab wird der Mikrocontroller zum flexiblen Werkzeugkasten für Elektronik-Experimente.]]></description>
       <link>https://www.heise.de/ratgeber/Elektronik-Experimente-Testlabor-fuer-Raspi-Pico-Arduino-Nano-und-Co-11365468.html</link>
       <guid isPermaLink="false">7e36f589f4e1a3cac4fa854529ee9838e0a55cf88b63009e84fb1315095c589e</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <description><![CDATA[AMD Radeon RX 9060 XT vs. Nvidia GeForce RTX 5060 Ti: Wir lassen die 16-GByte-Karten auf drei LLMs los und beurteilen, ob sich der Nvidia-Aufpreis lohnt.]]></description>
       <link>https://www.heise.de/ratgeber/16-GByte-fuer-lokale-KI-Budget-Grafikkarten-von-AMD-und-Nvidia-im-Vergleich-11400165.html</link>
       <guid isPermaLink="false">560e61a78e86a42266b38b0449156e7b523a1a6b6c6931e93c1ad60a8e8f1642</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -58,7 +58,7 @@
       <description><![CDATA[Kein Instrument, keine Übung – kein Problem. LAYSIE generiert per KI individuelle Songs aus gesprochenen Ideen und spielt sie über Bluetooth ab.]]></description>
       <link>https://www.heise.de/ratgeber/LAYSIE-KI-Songs-mit-Raspberry-Pi-generieren-11368294.html</link>
       <guid isPermaLink="false">ad923a174f45a29736b7c85fbed712093bcc816fec768709a7e492d78bf48a39</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -66,7 +66,7 @@
       <description><![CDATA[Wer beim Würfeln vom Pech verfolgt wird, kann schnell die Lust am Spiel verlieren. Dieser DIY-Würfel mit LED-Anzeige sorgt für ausgleichende Gerechtigkeit.]]></description>
       <link>https://www.heise.de/ratgeber/Gerechten-Wuerfel-mit-LED-Anzeige-selber-bauen-11367025.html</link>
       <guid isPermaLink="false">8e55cd1f79bf22ccf9ced3d23e380e86c23ff997914606a182b7a7f66fbf56a1</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -74,7 +74,7 @@
       <description><![CDATA[Bis zum heutigen Tage entstehen Programme und Hardware für den C64. Die Software Meatloaf nutzt einen ESP32, um den Kult-Oldie sogar ins Internet zu bringen.]]></description>
       <link>https://www.heise.de/ratgeber/ESP32-Projekt-Wie-man-mit-Meatloaf-den-C64-ins-Internet-bringt-11370778.html</link>
       <guid isPermaLink="false">2211938034cba9224fccdfbd8dbc8dab203cdd50d0d7aaae2ffc2ce167a82783</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -82,7 +82,7 @@
       <description><![CDATA[Wir bauen einen energieeffizienten Sensor auf Basis des nRF52840-Mikrocontrollers.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Stromsparende-Sensoren-mit-BTHome-selbst-bauen-11363875.html</link>
       <guid isPermaLink="false">249c071bed6a6a166f78cc6a31868b3f07f4e0807590451e5381a4161ae3196f</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -90,7 +90,7 @@
       <description><![CDATA[Soll ein elektronischer Geocache oder Umweltsensor 10 Jahre batteriebetrieben in der Wildnis überleben, muss man tief in die Low-Power-Trickkiste greifen.]]></description>
       <link>https://www.heise.de/ratgeber/Stromspartipps-der-AVR-Chips-Arduino-im-Batteriebetrieb-11334381.html</link>
       <guid isPermaLink="false">a423d74fda2e66fa964adfd4280e9b5c833b1eb636e7c2d9a2d2aacf756858c1</guid>
-      <pubDate>Tue, 25 Aug 2026 21:29:30 +0000</pubDate>
+      <pubDate>Tue, 25 Aug 2026 21:55:08 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
   </channel>
