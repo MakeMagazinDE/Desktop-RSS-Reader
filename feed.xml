@@ -10,15 +10,23 @@
       <link>https://www.heise.de/make/plus/</link>
     </image>
     <generator>https://github.com/MakeMagazinDE/Desktop-RSS-Reader</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 07:07:01 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 12:45:20 +0000</lastBuildDate>
     <atom:link href="https://MakeMagazinDE.github.io/Desktop-RSS-Reader/feed.xml" rel="self" type="application/rss+xml"/>
     <language>de</language>
+    <item>
+      <title>Alten Hometrainer an Garmin anbinden: So klappts mit ESP32 und Reed-Kontakt</title>
+      <description><![CDATA[Ein alter Kettler-Hometrainer, ein ESP32-Board und etwas KI: Die neue Konsole funkt Tempo und Trittfrequenz an eine Garmin-Uhr und speichert jede Fahrt.]]></description>
+      <link>https://www.heise.de/ratgeber/Alten-Hometrainer-an-Garmin-anbinden-So-klappts-mit-ESP32-und-Reed-Kontakt-11484103.html</link>
+      <guid isPermaLink="false">57ffef7155669619a178f54eb0122feb858c3f9e1184d376cfd20bf6d33e18a4</guid>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
+      <dc:creator></dc:creator>
+    </item>
     <item>
       <title>Effizienz-Test: Wie viel Leistung die RTX Pro 6000 bei reduzierter TDP verliert</title>
       <description><![CDATA[Müssen Grafikkarten 600 Watt verheizen? Wir prüfen, wie viel Leistung das Absenken auf diverse TDP-Stufen kostet und warum 6 Watt mehr entscheidend sein können.]]></description>
       <link>https://www.heise.de/ratgeber/Effizienz-Test-Wie-viel-Leistung-die-RTX-Pro-6000-bei-reduzierter-TDP-verliert-11473305.html</link>
       <guid isPermaLink="false">b6af8aab3c938087cf17ceff46437b2189d296a12ebda8c3c2bd1a85e918576c</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -26,7 +34,7 @@
       <description><![CDATA[Ein tragbares Luftqualitätsmessgerät für den Arbeitsplatz hilft bei der Einschätzung, ob und wie viel Feinstäube die Gesundheit belasten könnten.]]></description>
       <link>https://www.heise.de/ratgeber/Bauanleitung-fuer-einen-kompakten-Feinstaub-Warner-11485345.html</link>
       <guid isPermaLink="false">aeea26a459d9db897d407a20e82190ee73d12b28592a74b55d8057fc41e7b2b8</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -34,7 +42,7 @@
       <description><![CDATA[Hier erzähle ich, wie ich mit meinem Bruder eine 2,5 Tonnen schwere Industriefräse in unsere Hobbywerkstatt geholt und auf LinuxCNC umgerüstet habe.]]></description>
       <link>https://www.heise.de/ratgeber/Wie-eine-Industriefraese-in-eine-Hobbywerkstatt-kam-11485579.html</link>
       <guid isPermaLink="false">3a03a463b5b298fd71759e33189974bd8e5bdc8c777a9793e962440145a3fa20</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -42,7 +50,7 @@
       <description><![CDATA[Wir bauen eine Werkbank mit Handsäge, Kantenfräse und Multitool.]]></description>
       <link>https://www.heise.de/ratgeber/Anleitung-Unterbau-fuer-Werkstattmaschinen-selber-bauen-11480304.html</link>
       <guid isPermaLink="false">a93c0490479530e5151719e1fb1d277d0f9d19622f617ace3ae2555a9fd3956a</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -50,7 +58,7 @@
       <description><![CDATA[Wer kreativ mit recyceltem Material arbeitet und an die Grenzen gängiger Werkzeuge stößt, braucht eigene Lösungen.]]></description>
       <link>https://www.heise.de/ratgeber/Wiederkehrende-Aufgaben-mit-selbstgebauten-Werkzeugen-vereinfachen-11481068.html</link>
       <guid isPermaLink="false">0959f1cb4006f3eb892593cd168659e283f20ffd847d21a0abac18d36f4493cc</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -58,7 +66,7 @@
       <description><![CDATA[Wir bauen eine in Höhe und Position verstellbare Lötplattform mit einer magnetischen Oberfläche und diversen Helferlein.]]></description>
       <link>https://www.heise.de/ratgeber/Loetarbeiten-erleichtern-Schwebende-Loetplattform-im-Selbstbau-11476600.html</link>
       <guid isPermaLink="false">1d265b3cefbbd29d910330969b497885182806887dc8130853b67c98500e4a66</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -66,7 +74,7 @@
       <description><![CDATA[DAW-Controller sind günstige Geräte mit vielen Tasten und RGB-LEDs. Werden sie nicht mehr genutzt, müssen sie nicht einstauben: Wir bauen ein Spielbrett daraus.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Musik-Controller-als-Spielbrett-11450261.html</link>
       <guid isPermaLink="false">2a86de099fe2d42312f3fcd43f3be3c8142d9e286de610467fcf830923bf0b51</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -74,7 +82,7 @@
       <description><![CDATA[Für dieses animatronische Projekt genügt schon ein wenig Fischertechnik für die Mechanik, gepaart mit einem ESP32, einem MP3-Player und einem Servo.]]></description>
       <link>https://www.heise.de/ratgeber/Aussergewoehnliche-Uhr-Sprechende-Kanne-selber-bauen-11450108.html</link>
       <guid isPermaLink="false">d329ea4606b7a26ce6c18497d1aca74e127f92cdbaba65a6db2c65425494185d</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -82,7 +90,7 @@
       <description><![CDATA[Wie die perfekte Werkstatt aussieht, hängt natürlich ganz wesentlich davon ab, was darin passieren soll. Wir geben einen Ansatz.]]></description>
       <link>https://www.heise.de/ratgeber/Wie-die-perfekte-Werkstatt-aussehen-kann-11478129.html</link>
       <guid isPermaLink="false">07c6765c5fe0ce1303d5578ef108704e7d5f923fdc8f4e8776d93ded21e47cf0</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -90,7 +98,7 @@
       <description><![CDATA[Für ergonomisches Arbeiten braucht es eine passende Werkbank. Wir zeigen, wie sich eine Klappwerkbank, die platzsparend und flexibel ist, selbst bauen lässt.]]></description>
       <link>https://www.heise.de/ratgeber/Anleitung-Multi-Tool-Klappwerkbank-selbst-bauen-11464440.html</link>
       <guid isPermaLink="false">8587ec52dda56b88cd81ddd9ad71022b211d769bfb5ad18f2d4b0a5ba0e7abc3</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -98,7 +106,7 @@
       <description><![CDATA[Mit einem günstigen Beamer, Folie und passenden Bildern oder Animationen verwandelt man seine Fenster in gruselige Szenerien. Wir zeigen, wie das funktioniert.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Spukhafte-Halloween-Motive-ans-Fenster-projizieren-11449152.html</link>
       <guid isPermaLink="false">c08fbb842299c8b5b44e56d920ba006e0f929a791d93dffd8688354ff082bae5</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -106,7 +114,7 @@
       <description><![CDATA[Ein tragbares Flipperspiel für ein Festival zu bauen – das allein ist eine Herausforderung. Noch schwieriger wird es, wenn die eigenen Kinder mitbauen sollen.]]></description>
       <link>https://www.heise.de/ratgeber/Bastel-Projekt-Tragbares-Flipperspiel-im-Selbstbau-11436893.html</link>
       <guid isPermaLink="false">96834127abd30461d02ee6f00280bdafa822dcdcf3cdb123d7ab991ac3746b0c</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
     <item>
@@ -114,15 +122,7 @@
       <description><![CDATA[Wir zeigen, wie sich ein altes USB-Gadget direkt ansteuern lässt und USB-Control-Transfers, HID-Requests und die Host-Bibliothek der ESP-IDF zusammenspielen.]]></description>
       <link>https://www.heise.de/ratgeber/Alte-USB-Gadgets-ansteuern-ESP32-S3-als-USB-Host-verwenden-11448820.html</link>
       <guid isPermaLink="false">6af945d1b113bc69d30da55ab46a997cef5f14c633b66c5e85ab32d337d441b6</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
-      <dc:creator></dc:creator>
-    </item>
-    <item>
-      <title>KI-Coding-Assistent: Erste Schritte mit Agentic Coding</title>
-      <description><![CDATA[Beim Vibe-Coding generiert die KI den Code, aber einbauen muss man ihn noch selbst. Das Agentic Coding übernimmt auch das und auch noch das Debugging.]]></description>
-      <link>https://www.heise.de/ratgeber/KI-Coding-Assistent-Erste-Schritte-mit-Agentic-Coding-11448768.html</link>
-      <guid isPermaLink="false">6e013986d4fb67fff005cdfd5a663c53601e82fc48fd473edd98ee914bed22c2</guid>
-      <pubDate>Fri, 23 Oct 2026 07:07:01 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:45:20 +0000</pubDate>
       <dc:creator></dc:creator>
     </item>
   </channel>
